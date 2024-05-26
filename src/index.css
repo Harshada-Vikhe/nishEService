@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.label-style{
+    
+}
+
+.input-style{
+    @apply  border-2 border-gray-200 rounded-md p-1 mb-4   focus:outline-none focus:border-gray-300 w-full;
+}
